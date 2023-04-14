@@ -548,7 +548,7 @@ if database == 'CSV':
         #feature_names = Xtest.columns
 
         #carregamento / instanciamento do modelo pkl
-        mdl_lgbm = load_model('fiap_repositorio_streamlit-master/pickle_lgbm_pycaret.pkl')
+        mdl_lgbm = load_model('fiap_repositorio_streamlit-master/pickle_lgbm_pycaret')
         
         # Acesse o modelo LGBMClassifier dentro do objeto 'Pipeline'
         lgbm_model = mdl_lgbm.named_steps['trained_model']
@@ -715,7 +715,7 @@ elif database == 'Online':
         Xtest = pd.DataFrame(data=[[AcceptedCmp1,AcceptedCmp2,AcceptedCmp3,AcceptedCmp4,AcceptedCmp5,Age,Complain,Education,Income,Kidhome,Marital_Status,MntFishProducts,MntFruits,MntGoldProds,MntMeatProducts,MntSweetProducts,MntWines,NumCatalogPurchases,NumDealsPurchases,NumStorePurchases,NumWebPurchases,NumWebVisitsMonth,Recency,Teenhome,Time_Customer]], columns=['AcceptedCmp1','AcceptedCmp2','AcceptedCmp3','AcceptedCmp4','AcceptedCmp5','Age','Complain','Education','Income','Kidhome','Marital_Status','MntFishProducts','MntFruits','MntGoldProds','MntMeatProducts','MntSweetProducts','MntWines','NumCatalogPurchases','NumDealsPurchases','NumStorePurchases','NumWebPurchases','NumWebVisitsMonth','Recency','Teenhome','Time_Customer'])
 
         #carregamento / instanciamento do modelo pkl
-        mdl_lgbm = load_model('fiap_repositorio_streamlit-master/pickle_lgbm_pycaret.pkl')
+        mdl_lgbm = load_model('fiap_repositorio_streamlit-master/pickle_lgbm_pycaret')
         
         # Acesse o modelo LGBMClassifier dentro do objeto 'Pipeline'
         #lgbm_model = mdl_lgbm.named_steps['trained_model']
