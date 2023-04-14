@@ -510,7 +510,7 @@ def plot_stacked_bar_chart2(base, treshold,coluna):
     
 
 st.set_page_config( page_title = 'Simulador - Case Ifood',
-                    page_icon = './images/logo_fiap.png',
+                    page_icon = 'fiap_repositorio_streamlit-master/images/logo_fiap.png',
                     layout = 'wide',
                     initial_sidebar_state = 'expanded')
 
@@ -524,7 +524,7 @@ with st.expander('Descrição do App', expanded = False):
 
 with st.sidebar:
     c1, c2 = st.columns(2)
-    c1.image('./images/logo_fiap.png', width = 100)
+    c1.image('fiap_repositorio_streamlit-master/images/logo_fiap.png', width = 100)
     c2.write('')
     c2.subheader('Auto ML - Fiap [v2]')
 
