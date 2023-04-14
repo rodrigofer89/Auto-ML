@@ -3,7 +3,7 @@
 
 > Repositorio voltado para as aulas de auto-ML
 
-* node app.js
+* Esse repositorio será atualizado com frequencia com novos projeto de Auto-ML listando a evolução dos projetos propostos em aula
 
 
 xD
